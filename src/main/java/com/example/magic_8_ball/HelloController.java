@@ -79,7 +79,7 @@ public class HelloController  {
         welcomeText.setText(result);
 
 
-     //   audioshit
+     //   audiostuff
 
 
 
@@ -87,8 +87,10 @@ public class HelloController  {
         try{
            /* File sound = new File ("C:\\Users\\justi\\SoftDev1 intellij project folder\\" +
                     "Magic_8_ball\\src\\fantasyclip.wav");*/
-            File sound = new File ("C:\\Users\\justi\\SoftDev1 intellij project folder\\Magic_8_ball\\src\\main\\resources\\fantasyclip.wav");
-            AudioInputStream audioinput = AudioSystem.getAudioInputStream(sound);
+          //  File sound = new File ("C:\\Users\\justi\\SoftDev1 intellij project folder\\Magic_8_ball\\src\\main\\resources\\fantasyclip.wav");
+           // AudioInputStream audioinput = AudioSystem.getAudioInputStream(sound);
+            AudioInputStream audioinput = (AudioInputStream) getClass().getResourceAsStream("fantasyclip.wav");
+
             Clip c = AudioSystem.getClip();
             c.open(audioinput);
             c.start();
