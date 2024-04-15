@@ -33,7 +33,7 @@ public class HelloController  {
         String y = "Yes";
         String m = "Maybe";
         String a = "It's likely";
-        String d = "I wouldn't tell anyone else you asked";
+        String d = "I wouldn't tell anyone else you asked!";
         String ag = "I'm distracted, ask again";
         String result = "I'm distracted, ask again";
         int x = 0;
