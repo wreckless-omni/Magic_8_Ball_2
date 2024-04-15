@@ -31,7 +31,7 @@ public class HelloController  {
         QuestionField.clear();
         String n = "No!";
         String y = "Yes!";
-        String m = "Maybe";
+        String m = "Maybe...";
         String a = "It's likely";
         String d = "I wouldn't tell anyone else you asked!";
         String ag = "I'm distracted, ask again...";
