@@ -29,7 +29,7 @@ public class HelloController  {
 
 
         QuestionField.clear();
-        String n = "No";
+        String n = "No!";
         String y = "Yes";
         String m = "Maybe";
         String a = "It's likely";
