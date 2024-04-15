@@ -1,6 +1,6 @@
-package FakeMain;
+package Magic_8_ball_2;
 
-public class FakeMain {
+public class Magic_8_ball_2 {
 
         public static void main (String[] args){
 

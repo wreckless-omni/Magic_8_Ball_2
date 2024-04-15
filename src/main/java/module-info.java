@@ -9,6 +9,6 @@ module com.example.magic_8_ball {
 
     opens com.example.magic_8_ball to javafx.fxml;
     exports com.example.magic_8_ball;
-    exports FakeMain;
-    opens FakeMain to javafx.fxml;
+    exports Magic_8_ball_2;
+    opens Magic_8_ball_2 to javafx.fxml;
 }
